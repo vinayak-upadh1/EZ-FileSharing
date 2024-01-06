@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Sign-up Page</title>
+</head>
+<body>
+    <h1>Hey there new admin. Create your account and use the service.</h1>
+    <form action="", method="POST">
+        {% csrf_token %}
+        <label for="">Register</label>
+        <input type="text" name="name" id="", placeholder="Enter your name" required>
+        <input type="email" name="email" id="", placeholder="Enter your email", required>
+        <input type="password" name="password" id="", placeholder="Enter your password", required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
